@@ -9,9 +9,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Load the trained models
-heart = pickle.load(open(r'/workspaces/Prediction_models/Heart Disease Model.sav', 'rb'))
-parkinson = pickle.load(open(r'/workspaces/Prediction_models/Parkinsons Model.sav', 'rb'))
-diabetes = pickle.load(open(r'/workspaces/Prediction_models/diabetes_trained_model.sav', 'rb'))
+heart = pickle.load(open(r'Heart Disease Model.sav', 'rb'))
+parkinson = pickle.load(open(r'Parkinsons Model.sav', 'rb'))
+diabetes = pickle.load(open(r'diabetes_trained_model.sav', 'rb'))
 
 # Sidebar menu
 with st.sidebar:
